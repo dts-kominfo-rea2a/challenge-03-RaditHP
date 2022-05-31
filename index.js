@@ -25,7 +25,7 @@ const listBelanjaan = function (dataBelanjaan) {
   let listBelanjaan = [];
   for (barang = 0; barang <= dataBelanjaan.length - 1; barang++) {
     listBelanjaan.push(
-      `-${dataBelanjaan[barang].nama} X ${dataBelanjaan[barang].kuantitas}`
+      `- ${dataBelanjaan[barang].nama} X ${dataBelanjaan[barang].kuantitas}`
     );
   }
   return listBelanjaan;
